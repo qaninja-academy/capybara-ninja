@@ -29,5 +29,4 @@ describe 'Login com Cadastro', :login3 do
         sleep 5
     end
 
-
 end
