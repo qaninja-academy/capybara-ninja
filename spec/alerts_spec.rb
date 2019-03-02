@@ -48,7 +48,7 @@ describe 'Alertas de JS', :alerts do
   # desafio
 
   it 'dismiss prompt', :dismiss_prompt do
-    # Quando eu não aceito este prompt
-    # Então a mensage deve ser Olá, null
+    # Quando eu nao aceito este prompt
+    # Entao a mensage deve ser Ola, null
   end
 end

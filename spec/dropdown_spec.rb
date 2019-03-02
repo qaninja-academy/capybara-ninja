@@ -2,14 +2,14 @@ describe 'Caixa de opções', :dropdown do
   it 'item especifico simples' do
     visit 'https://training-wheels-protocol.herokuapp.com/dropdown'
     select('Loki', from: 'dropdown')
-    sleep 3 # temporário
+    sleep 3 # temporario
   end
 
   it 'item especifico com o find' do
     visit 'https://training-wheels-protocol.herokuapp.com/dropdown'
     drop = find('.avenger-list')
     drop.find('option', text: 'Scott Lang').select_option
-    sleep 3 # temporário
+    sleep 3 # temporario
   end
 
   it 'qualquer item', :sample do
