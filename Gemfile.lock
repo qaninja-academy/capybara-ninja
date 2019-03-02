@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    capybara (3.13.2)
+    capybara (3.10.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -14,9 +14,12 @@ GEM
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.3)
+    ffi (1.10.0)
     ffi (1.10.0-x86-mingw32)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.1-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     public_suffix (3.0.3)
@@ -38,21 +41,20 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     rubyzip (1.2.2)
-    selenium-webdriver (3.4.0)
+    selenium-webdriver (3.14.0)
       childprocess (~> 0.5)
-      rubyzip (~> 1.0)
-      websocket (~> 1.0)
-    websocket (1.2.8)
+      rubyzip (~> 1.2)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
-  capybara
-  rspec
-  selenium-webdriver (= 3.4.0)
+  capybara (= 3.10.0)
+  rspec (= 3.8.0)
+  selenium-webdriver (= 3.14.0)
 
 BUNDLED WITH
-   1.15.3
+   1.17.2

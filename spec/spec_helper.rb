@@ -1,5 +1,6 @@
 require 'capybara'
 require 'capybara/rspec'
+require 'selenium-webdriver'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -17,5 +18,5 @@ end
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  config.default_max_wait_time = 5
+  config.default_max_wait_time = 15
 end
