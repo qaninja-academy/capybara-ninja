@@ -1,6 +1,6 @@
 describe 'Alertas de JS', :alerts do
   before(:each) do
-    visit 'https://training-wheels-protocol.herokuapp.com/javascript_alerts'
+    visit '/javascript_alerts'
   end
 
   it 'alerta' do
