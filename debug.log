@@ -1,2 +1,0 @@
-[0302/122225.324:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
-[0302/122225.324:ERROR:exception_snapshot_win.cc(88)] thread ID 8784 not found in process
