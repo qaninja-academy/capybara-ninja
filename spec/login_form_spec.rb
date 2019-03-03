@@ -32,4 +32,5 @@ describe 'Login Form', :smoke do
 
     expect(find('#flash')).to have_content 'O usuário informado não está cadastrado!'
   end
+
 end
