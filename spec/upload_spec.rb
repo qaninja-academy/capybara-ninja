@@ -20,8 +20,4 @@ describe 'Upload', :upload do
     img = find('#new-image')
     expect(img[:src]).to include '/uploads/imagem.png'
   end
-
-  after(:each) do
-    sleep 3
-  end
 end

@@ -38,7 +38,6 @@ describe 'Select2', :select2 do
       atores.each do |a|
         selecione(a)
       end
-      sleep 5
     end
 
     def selecione_termo_index(termo, index)
@@ -53,8 +52,6 @@ describe 'Select2', :select2 do
       atores.each_with_index do |_a, i|
         selecione_termo_index('a', i)
       end
-
-      sleep 5
     end
   end
 end

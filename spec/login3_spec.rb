@@ -21,6 +21,5 @@ describe 'Login com Cadastro', :login3 do
     end
 
     expect(page).to have_content 'Dados enviados. Aguarde aprovação do seu cadastro!'
-    sleep 5
   end
 end

@@ -18,8 +18,4 @@ describe 'Caixas de seleção', :checkbox do
   it 'desmarcando com find set false' do
     find('input[value=guardians]').set(false)
   end
-
-  after(:each) do
-    sleep 3
-  end
 end

@@ -23,8 +23,4 @@ describe 'Mouse Hover', :hovers do
 
     expect(page).to have_content 'Nome: Homem Aranha'
   end
-
-  after(:each) do
-    sleep 0.5 # temporário, só para verificar o resultado
-  end
 end
