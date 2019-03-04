@@ -9,6 +9,7 @@ describe 'Alertas de JS', :alerts do
     msg = page.driver.browser.switch_to.alert.text
     expect(msg).to eql 'Isto é uma mensagem de alerta'
     sleep 3
+    page.driver.browser.switch_to.alert.accept
   end
 
   it 'sim confirma' do
