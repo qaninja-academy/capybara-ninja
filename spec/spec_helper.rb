@@ -21,7 +21,9 @@ RSpec.configure do |config|
 
   config.after(:example) do |e|
     nome = e.description.gsub(/[^A-Za-z0-9 ]/, '').tr(' ', '_')
-    page.save_screenshot('log/' + nome + '.png')
+    # if e.exception condição para obter evidencia somente quando o teste falha
+    # para todos os cenários, tire o if 
+    page.save_screenshot('log/' + nome + '.png') if e.exception
   end
 
 end
