@@ -9,7 +9,7 @@ describe 'Caixas de seleção', :checkbox do
 
   it 'desmarcando uma opção' do
     uncheck('antman')
-  end
+  end 
 
   it 'marcando com find set true' do
     find('input[value=cap]').set(true)

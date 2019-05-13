@@ -32,18 +32,11 @@ describe 'Alertas de JS', :alerts do
     expect(page).to have_content 'Mensagem não confirmada'
   end
 
-  it 'accept prompt', :accept_prompt do
+  it 'accept prompt', :accept_promp do
     accept_prompt(with: 'Fernando') do
       click_button 'Prompt'
     end
 
     expect(page).to have_content 'Olá, Fernando'
-  end
-
-  # desafio
-
-  it 'dismiss prompt', :dismiss_prompt do
-    # Quando eu nao aceito este prompt
-    # Entao a mensage deve ser Ola, null
   end
 end
