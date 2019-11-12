@@ -35,6 +35,7 @@ describe 'Alertas de JS', :alerts do
   it 'accept prompt', :accept_promp do
     accept_prompt(with: 'Fernando') do
       click_button 'Prompt'
+      sleep 3 # use se ficar lento (somente para entender o funcionamento do accept_prompt)
     end
 
     expect(page).to have_content 'Olá, Fernando'
